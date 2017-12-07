@@ -1,0 +1,199 @@
+body
+{animation:load 4.25s ease 0s 1,pulse 16s ease 8s infinite;
+background-color:#020202;
+color:white;
+font-family:Product Sans;
+font-size:25px;
+padding:50px 100px 100px 100px;
+line-height:32px;
+}
+
+h1
+{font-size:100px;
+}
+
+h2
+{font-size:55px;
+text-decoration:underline;
+animation:pilse 16s ease 8s infinite;
+}
+
+h3
+{font-size:35px;
+text-decoration:underline;
+animation:pilse 16s ease 8s infinite;
+}
+
+.img1
+{animation:hidei1 4.25s;
+backface-visibility:hidden;
+}
+
+.img2
+{position:absolute;
+top:835px;
+opacity:0;
+left:262px;
+animation:hidei2 4.25s,fd 3s infinite 15s;
+}
+
+.img3
+{animation:hidei3 4.25s;
+width:650px;
+height:300px;
+}
+
+.img5
+{animation:hidei5 4.25s;
+width:40px;
+height:100px;
+position:absolute;
+top:1795px;
+right:120px;
+}
+
+.img6
+{animation:hidei6 4.25s;
+}
+
+.img4
+{
+animation:hidei4 4.25s;
+}
+
+h1,h2,h3
+{text-align:center;
+}
+
+ul
+{color:white;
+animation:hidelist 4.25s;
+}
+
+.it
+{animation:come 2s;
+animation-delay:4.25s;
+transition-timing-function:ease-in-out;
+}
+
+.google
+{animation:hideg 4.25s;
+}
+
+@keyframes load
+{0%,95%
+{background-image:url("https://assets.materialup.com/uploads/2b8cc955-ba91-47ae-a480-e12a23040b93/preview.gif");
+backface-visibility:hidden;
+background-size:665px 451px;
+color:rgba(0,0,0,0);
+}
+100%
+{background-color:black;
+color:rgba(1,1,1,0);
+visibility:hidden;
+}
+}
+
+@keyframes hidei1
+{0%,100%{visibility:hidden;
+}
+}
+
+@keyframes hidei2
+{0%,100%{visibility:hidden;
+}
+}
+
+@keyframes hidei3
+{0%,100%{visibility:hidden;
+}
+}
+
+@keyframes hidei4
+{0%,100%{visibility:hidden;
+}
+}
+
+@keyframes hidei5
+{0%,100%{visibility:hidden;
+}
+}
+
+
+@keyframes hidei6
+{0%,100%{visibility:hidden;
+}
+}
+
+@keyframes hidelist
+{0%,100%{opacity:0;
+}}
+
+@keyframes hideg
+{0%,100%
+{opacity:0;
+}
+}
+
+@keyframes fd
+{0%
+{opacity:0;
+}
+50%
+{opacity:1;
+}
+100%
+{opacity:0;
+}
+}
+
+@keyframes come
+{0%
+{opacity:0;
+font-size:0;
+}
+50%
+{opacity:0.8;
+font-size:120px;
+}
+100%
+{opacity:1;
+font-size:100px;
+}
+}
+
+@keyframes pulse
+{0%
+{background-color:black
+}
+25%
+{background-color:#4885ed
+}
+50%
+{background-color:#db3236
+}
+75%
+{background-color:#f4c20d
+}
+100%
+{background-color:#3cba54
+}
+}
+
+@keyframes pilse
+{0%
+{color:#3cba54
+}
+25%
+{color:#f4c20d
+}
+50%
+{color:#4885ed
+}
+75%
+{color:#db3236
+}
+100%
+{color:black
+}
+}
